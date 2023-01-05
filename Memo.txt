@@ -1,0 +1,34 @@
+[data verification]
+python -m keras_segmentation verify_dataset \
+ --images_path="database/example_dataset/images_prepped_train/" \
+ --segs_path="database/example_dataset/annotations_prepped_train/"  \
+ --n_classes=51
+
+python -m keras_segmentation verify_dataset \
+ --images_path="database/Menzies_Brain/val_images/" \
+ --segs_path="database/Menzies_Brain/val_annotation/"  \
+ --n_classes=7
+
+[data visualisation]
+python -m keras_segmentation visualize_dataset \
+ --images_path="database/Menzies_Brain/train_images/" \
+ --segs_path="database/Menzies_Brain/train_annotation/"  \
+ --n_classes=7
+
+[imgaug]
+https://gitee.com/alavaien/imgaug
+
+
+[run]
+export CUDA_VISIBLE_DEVICES=0, or 1 &&
+python run.py
+
+
+[Find user of PID 1234]
+ps -u -p 1234 
+Kill -9 PID
+
+[Jupyter Notebook]
+(From server) $ jupyter notebook --no-browser --port=8886
+(From Local) $ ssh -N -f -L localhost:8886:localhost:8886 mirap@ictdls.cis.utas.edu.au 
+(Open browser and go to localhost:8886)
