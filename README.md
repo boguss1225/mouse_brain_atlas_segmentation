@@ -1,5 +1,13 @@
-# Segmentation of Mouse Brain Atlas : Automatic Detection of Amyloid Beta Plaques in Somatosensory Cortex of an Alzheimer’s Disease Mouse Using Deep Learning
-![](https://ieeexplore.ieee.org/assets/img/ieee_logo_white.svg) ![](screenshots/utas_eng.png) ![](screenshots/wickings.png)</br>
+# Segmentation of Mouse Brain Atlas
+<img align="left" alt="HTML5" width="76px" src="https://ieeexplore.ieee.org/assets/img/ieee_logo_white.svg" />
+<img align="left" alt="HTML5" width="76px" src="screenshots/utas_eng.png" />
+<img align="left" alt="HTML5" width="76px" src="screenshots/wickings.png" />
+</br>
+</br>
+
+## Automatic Detection of Amyloid Beta Plaques in Somatosensory Cortex of an Alzheimer’s Disease Mouse Using Deep Learning
+
+
 ## ABSTRACT
 <p align='justify'> Identification of amyloid beta (Aβ) plaques in the cerebral cortex in models of Alzheimer’s Disease (AD) is of critical importance for research into therapeutics. Here we propose an innovative framework which automatically measures Aβ plaques in the cortex of a rodent model, based on anatomical segmentation using a deep learning approach. The framework has three phases: data acquisition to enhance image quality using preprocessing techniques and image normalization with a novel plaque removal algorithm, then an anatomical segmentation phase using the trained model, and finally an analysis phase to quantitate Aβ plaques. Supervised training with 946 sets of mouse brain section annotations exhibiting Aβ protein-labeled plaques (Aβ plaques) were trained with deep neural networks (DNNs). Five DNN architectures: FCN32, FCN16, FCN8, SegNet, and U-Net, were tested. Of these, U-Net was selected as it showed the most reliable segmentation performance. The framework demonstrated an accuracy of 83.98% and 91.21% of the Dice coefficient score for atlas segmentation with the test dataset. The proposed framework automatically segmented the somatosensory cortex and calculated the intensity and extent of Aβ plaques. This study contributes to image analysis in the field of neuroscience, allowing region-specific quantitation of image features using a deep learning approach. </p>
 
