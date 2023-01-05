@@ -87,4 +87,4 @@ Figure 5 shows the segmentations produced by these five models trained on the pr
 
 ## Reference
 * code base : https://github.com/boguss1225/image-segmentation-keras
-
+* code reference + special thanks to: https://github.com/divamgupta/image-segmentation-keras
